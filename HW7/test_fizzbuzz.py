@@ -3,7 +3,11 @@ import fizzbuzz as fb
 
 class TestFizz(unittest.TestCase):
 
-    def fizz3(self):
+    def test_fizz3(self):
         check = fb.fizzbuzz(3)
         self.assertEqual(check, "Fizz") 
+
+    def test_fizz10(self):
+        check = fb.fizzbuzz(10)
+        self.assertEqual(check, "Buzz") 
 
