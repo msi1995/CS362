@@ -11,3 +11,7 @@ class TestFizz(unittest.TestCase):
         check = fb.fizzbuzz(10)
         self.assertEqual(check, "Buzz") 
 
+    def test_fizz15(self):
+        check = fb.fizzbuzz(15)
+        self.assertEqual(check, "FizzBuzz")
+
