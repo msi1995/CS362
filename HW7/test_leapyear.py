@@ -6,3 +6,7 @@ class TestLeap(unittest.TestCase):
     def test_leap2100(self):
         check = leap.checkleap(2100)
         self.assertEqual(check, False) 
+
+    def test_leap2000(self):
+        check = leap.checkleap(2000)
+        self.assertEqual(check, True) 
